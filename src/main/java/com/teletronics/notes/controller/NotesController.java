@@ -29,6 +29,7 @@ public class NotesController {
 
     private final NotesService notesService;
 
+    @Autowired
     public NotesController(NotesService notesService){
         this.notesService = notesService;
     }
